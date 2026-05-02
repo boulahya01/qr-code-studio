@@ -39,3 +39,11 @@ qr-studio/
 ├── tailwind.config.js
 ├── postcss.config.js
 └── README.md
+Q: Which framework should we build with?
+A: React + Electron (true desktop .exe)
+
+Q: Which features do you want in v1? (Select all that apply)
+A: Batch CSV generation, QR Scanner / decoder, Electron desktop wrapper, Save & load presets
+
+Q: Styling approach?
+A: shadcn/ui + Tailwind (component library)
