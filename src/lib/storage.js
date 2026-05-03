@@ -4,13 +4,13 @@
  * localStorage utilities for saving user state and presets.
  * 
  * TODO in Phase 1:
- * - [ ] Implement saveCurrentState(state) - persist full state
- * - [ ] Implement loadLastState() - restore state from storage
- * - [ ] Implement saveUserPreset(preset) - save custom theme
- * - [ ] Implement loadUserPresets() - load all saved themes
- * - [ ] Implement deleteUserPreset(id) - remove saved theme
- * - [ ] Add error handling (quota exceeded, corruption)
- * - [ ] Test with valid/invalid JSON
+ * - [x] Implement saveCurrentState(state) - persist full state
+ * - [x] Implement loadLastState() - restore state from storage
+ * - [x] Implement saveUserPreset(preset) - save custom theme
+ * - [x] Implement loadUserPresets() - load all saved themes
+ * - [x] Implement deleteUserPreset(id) - remove saved theme
+ * - [x] Add error handling (quota exceeded, corruption)
+ * - [x] Test with valid/invalid JSON
  */
 
 const STORAGE_KEYS = {
