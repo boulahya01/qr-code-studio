@@ -1,0 +1,43 @@
+{
+  "appId": "com.qr-studio.app",
+  "productName": "QR Studio",
+  "directories": {
+    "buildResources": "build",
+    "output": "dist/electron"
+  },
+  "files": [
+    "dist/**/*",
+    "electron/main.js",
+    "electron/preload.js",
+    "package.json"
+  ],
+  "win": {
+    "target": [
+      {
+        "target": "nsis",
+        "arch": [
+          "x64"
+        ]
+      },
+      {
+        "target": "portable",
+        "arch": [
+          "x64"
+        ]
+      }
+    ],
+    "certificateFile": null,
+    "certificatePassword": null,
+    "icon": "build/icon.ico"
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true,
+    "shortcutName": "QR Studio"
+  },
+  "portable": {
+    "artifactName": "QRStudio-${version}-portable.exe"
+  }
+}
